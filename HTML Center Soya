@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Center Soya</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="css/owl.carousel.min.css" rel="stylesheet">
+	<link href="css/iziModal.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<div class="header">
+			<div class="block-line first">
+				<div class="main-width">
+					<div class="logo-wrap">
+						<a href="index.html">
+							<img src="img/svg/Logotype.svg" alt="Logo">
+						</a>
+					</div>
+					<div class="contacts-wrap">
+						<a href="#">8-800-200-50-52</a>
+						<a href="#">centersoya@yandex.ru</a>
+					</div>
+					<div class="social-links">
+						<a href="#"><img src="img/svg/vk.svg" alt=""></a>
+						<a href="#"><img src="img/svg/ok.svg" alt=""></a>
+						<a href="#"><img src="img/svg/fb.svg" alt=""></a>
+						<a href="#"><img src="img/svg/Inst.svg" alt=""></a>
+					</div>
+					<button class="btn-empty" data-iziModal-open="#AskQues" data-iziModal-transitionin="fadeInDown">Задать вопрос</button>
+				</div>
+			</div>
+			<div class="main-width">
+				<div class="mobile-menu">
+					<div class="logo-mobile">
+						<img src="img/svg/Logotype.svg" alt="Logo">
+					</div>
+					<div class="basket-img">
+						<img src="img/svg/shopping-cart.svg">
+						<i>10</i>
+					</div>
+					<!-- БУРГЕР МЕНЮШКА -->
+					<a class="menu-link" href="#menu-burger">
+						<span></span>
+					</a>
+					<div class="menu-burger_header">
+						<div class="log-in-account"><a href="#">Личный кабинет</a></div>
+						<ul>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Производство</a></li>
+							<li><a href="#">Продукция</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Закупки</a></li>
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<div class="contacts-wrap">
+							<a href="#">8-800-200-50-52</a>
+							<a href="#">centersoya@yandex.ru</a>
+						</div>
+						<button class="btn-empty" data-iziModal-open="#AskQues" data-iziModal-transitionin="fadeInDown">Задать вопрос</button>
+					</div>
+					<!-- КОНЕЦ БУРГЕР МЕНЮ -->
+				</div>
+				<div class="block-line">
+					<div class="menu-wrap">
+						<ul>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Производство</a></li>
+							<li><a href="products.html">Продукция</a></li>
+							<li><a href="#">Закупки</a></li>
+							<li><a href="blog.html">Блог</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="menu-wrap user-menu">
+						<ul>
+							<li>
+								<div class="basket-img">
+									<img src="img/svg/shopping-cart.svg">
+									<i>10</i>
+								</div>
+								<a href="#">Корзина</a>
+							</li>
+							<li><a href="#">Войти</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider-header">
+			<div class="owl-carousel owl-header">
+				<div class="slider-item" style="background: url(img/bg-header.png) no-repeat center">
+					<div class="main-width">
+						<div class="slider-wrap">
+							<div class="title">
+								<h1>Центр Соя</h1>
+								<p>
+									Единственный завод в России, специализирующийся на производстве и комплексных поставках кормов для КРС
+								</p>
+							</div>
+							<button class="btn-full">Посмотреть продукцию</button>
+						</div>
+					</div>
+				</div>
+				<div class="slider-item" style="background: url(img/bg-header.png)  no-repeat center">
+					<div class="main-width">
+						<div class="slider-wrap">
+							<div class="title">
+								<h1>Центр Соя</h1>
+								<p>
+									Единственный завод в России,<br />специализирующийся на производстве<br />и комплексных поставках кормов для КРС
+								</p>
+							</div>
+							<button class="btn-full">Посмотреть продукцию</button>
+						</div>
+					</div>
+				</div>
+				<div class="slider-item" style="background: url(img/bg-header.png)  no-repeat center">
+					<div class="main-width">
+						<div class="slider-wrap">
+							<div class="title">
+								<h1>Центр Соя</h1>
+								<p>
+									Единственный завод в России,<br />специализирующийся на производстве<br />и комплексных поставках кормов для КРС
+								</p>
+							</div>
+							<button class="btn-full">Посмотреть продукцию</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="main-width">
+			<div class="numbers-wrap">
+				<div class="num-item">
+					<p>270
+						<span>
+							Производится тонн<br />соевых бобов в сутки
+						</span>
+					</p>
+				</div>
+				<div class="num-item">
+					<p>1995
+						<span>
+							Год основания<br />предприятия
+						</span>
+					</p>
+				</div>
+				<div class="num-item">
+					<p>120
+						<span>
+							Гектар кубанской<br />земли в составе
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="products-main">
+			<div class="main-width">
+				<div class="title">
+					<h2>Продукция</h2>
+					<button class="btn-empty">Посмотреть всю продукцию</button>
+				</div>
+				<div class="owl-carousel owl-products owl-nav-white">
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape1.png" alt="">
+						</div>
+						<p>Для телят</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape2.png" alt="">
+						</div>
+						<p>Для овец и коз</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape3.png" alt="">
+						</div>
+						<p>Для свиней</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape4.png" alt="">
+						</div>
+						<p>Для птиц</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape1.png" alt="">
+						</div>
+						<p>Для телят</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape2.png" alt="">
+						</div>
+						<p>Для овец и коз</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape3.png" alt="">
+						</div>
+						<p>Для свиней</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape4.png" alt="">
+						</div>
+						<p>Для птиц</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape1.png" alt="">
+						</div>
+						<p>Для телят</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape2.png" alt="">
+						</div>
+						<p>Для овец и коз</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape3.png" alt="">
+						</div>
+						<p>Для свиней</p>
+					</a>
+					<a href="#" class="product-item">
+						<div class="product-img">
+							<img src="img/Shape4.png" alt="">
+						</div>
+						<p>Для птиц</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="info-soya">
+			<div class="main-width">
+				<div class="info-wrap">
+					<div class="info-item">
+						<div class="info-img">
+							<img src="img/svg/about-company.svg" alt="">
+						</div>
+						<div class="title">
+							<h2>О компании</h2>
+							<p>
+								Создаем качественные продукты,<br />делаем их доступными, и искреннне<br />верим в то, что делаем мир лучше
+							</p>
+						</div>
+						<button class="btn-empty">Узнать больше</button>
+					</div>
+					<div class="info-item">
+						<div class="info-img">
+							<img src="img/svg/vacancy.svg" alt="">
+						</div>
+						<div class="title">
+							<h2>Вакансии</h2>
+							<p>
+								Если вы целеустремленный,<br />ответственный и любите животных,<br />то вы непременно нам нужны
+							</p>
+						</div>
+						<button class="btn-empty">Посмотреть вакансии</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-width">
+			<div class="blog">
+				<div class="title-blog">
+					<h2>Блог</h2>
+					<button class="btn-empty">Перейти в блог</button>
+				</div>
+				<div class="owl-carousel owl-blog owl-nav-white">
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog1.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Высокий уровень знаний</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog2.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Коровы выходят на охоту</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog3.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Узнай чем кормим животных мы</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog1.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Высокий уровень знаний</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog2.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Коровы выходят на охоту</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog3.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Узнай чем кормим животных мы</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog1.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Высокий уровень знаний</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog2.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Коровы выходят на охоту</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+					<a href="article.html" class="blog-item">
+						<div class="blog-img">
+							<img src="img/blog3.png" alt="">
+						</div>
+						<div class="title">
+							<h3>Узнай чем кормим животных мы</h3>
+							<p>Результаты расчетов укажите, каких не<br />учитывают что-то важное, поскольку<br />поясните, почему.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="clients">
+			<div class="main-width">
+				<div class="owl-carousel owl-clients owl-nav-white">
+					<a href="#" class="clients-img">
+						<img src="img/clients1.png" alt="">
+					</a>
+					<a href="#" class="clients-img">
+						<img src="img/clients2.png" alt="">
+					</a>
+					<a href="#" class="clients-img">
+						<img src="img/clients3.png" alt="">
+					</a>
+					<a href="#" class="clients-img">
+						<img src="img/clients4.png" alt="">
+					</a>
+					<a href="#" class="clients-img">
+						<img src="img/clients1.png" alt="">
+					</a>
+					<a href="#" class="clients-img">
+						<img src="img/clients2.png" alt="">
+					</a>
+					<a href="#" class="clients-img">
+						<img src="img/clients3.png" alt="">
+					</a>
+					<a href="#" class="clients-img">
+						<img src="img/clients4.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="main-width">
+			<div class="footer-wrap">
+				<div class="footer-item">
+					<a href="index.html" class="white-logo-img">
+						<img src="img/svg/Logotype-white.svg" alt="Logo">
+					</a>
+				</div>
+				<div class="footer-item">
+					<div class="title">
+						<h4>Меню</h4>
+					</div>
+					<ul class="menu-footer">
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Производство</a></li>
+						<li><a href="#">Продукция</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer-item">
+					<div class="title">
+						<h4>Контакты</h4>
+					</div>
+					<div class="location">
+						<p>
+							<nobr>ул. Западная, 11, Тбилисская,</nobr><br />
+							<nobr>Краснодарский край, 352362</nobr>
+						</p>
+						<a href="#">Показать на карте</a>
+					</div>
+					<hr class="mini">
+					<div class="social-links">
+						<a href="#"><img src="img/svg/vk-white.svg" alt=""></a>
+						<a href="#"><img src="img/svg/ok-white.svg" alt=""></a>
+						<a href="#"><img src="img/svg/fb-white.svg" alt=""></a>
+						<a href="#"><img src="img/svg/Inst-white.svg" alt=""></a>
+					</div>
+				</div>
+				<div class="footer-item">
+					<div class="title">
+						<h4>Задать вопрос</h4>
+					</div>
+					<div class="form-question">
+						<button class="btn-full">Задать вопрос</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Модальное окно * Заказ обратного звонка, кнопка с "Задать вопрос" -->
+	<div id="AskQues" class="modl">
+		<form method="post" id="Ask" class="modal-question">
+			<i class="close" data-izimodal-close>
+				<img src="img/svg/close.svg" alt="Close">
+			</i>
+			<div class="title">
+				<h2>Задать вопрос</h2>
+			</div>
+			<div class="question-wrap">
+				<input type="text" placeholder="Имя" class="white-input">
+				<input type="tel" id="phone" name="phone" placeholder="Телефон" class="white-input">
+				<textarea placeholder="Сообщение" class="white-input"></textarea>
+			</div>
+			<div class="politic-wrap">
+				<input type="checkbox" class="checkbox" id="politic-modal" checked>
+				<label for="politic-modal">Даю согласие на обработку данных</label>
+			</div>
+			<button class="btn-full ">Отправить</button>
+		</form>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/iziModal.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+		$('.owl-carousel.owl-header').owlCarousel({
+			loop: true,
+			margin: 0,
+			nav: true,
+			navText: ["<img src='img/svg/arrow-left.svg' />", "<img src='img/svg/arrow-right.svg' />"],
+			dots: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1000: {
+					items: 1
+				}
+			}
+		});
+
+		$('.owl-carousel.owl-products').owlCarousel({
+			loop: true,
+			margin: 30,
+			nav: true,
+			navText: ["<img src='img/svg/arrow-left-white.svg' />", "<img src='img/svg/arrow-right-white.svg' />"],
+			dots: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1000: {
+					items: 3
+				},
+				1200: {
+					items: 4
+				}
+
+			}
+		});
+
+		$('.owl-carousel.owl-blog').owlCarousel({
+			loop: true,
+			margin: 30,
+			nav: true,
+			navText: ["<img src='img/svg/arrow-left-white.svg' />", "<img src='img/svg/arrow-right-white.svg' />"],
+			dots: true,
+			responsive: {
+				0: {
+					items: 1,
+					margin: 10
+				},
+				600: {
+					items: 1,
+					margin: 10
+				},
+				1000: {
+					items: 3,
+				}
+			}
+		});
+
+		$('.owl-carousel.owl-clients').owlCarousel({
+			loop: true,
+			margin: 30,
+			nav: true,
+			navText: ["<img src='img/svg/arrow-left-white.svg' />", "<img src='img/svg/arrow-right-white.svg' />"],
+			dots: false,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1,
+					margin: 0
+				},
+				1000: {
+					items: 4
+				}
+			}
+		});
+
+	</script>
+
+</body>
+
+</html>
